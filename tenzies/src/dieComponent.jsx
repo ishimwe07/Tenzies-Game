@@ -6,7 +6,7 @@ export default function DieComponent(props){
     return(
         <>
             {/* <h1 className={styles} onClick={props.onClick}>{props.value}</h1> */}
-            <img src={`/public/${props.value}.png`} alt={`The dice roll of number${props.value}`} className={styles}  onClick={props.onClick} />
+            <img src={`/${props.value}.png`} alt={`The dice roll of number${props.value}`} className={styles}  onClick={props.onClick} />
         </>
     )
 }
